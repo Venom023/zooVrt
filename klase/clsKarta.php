@@ -16,7 +16,8 @@ public function snimiKartu($konekcija)
 {
     $upit = "INSERT INTO `zivotinje` (`id_zivotinje`, `godina_zivotinje`, `nazivzivotinje`) VALUES ($this->id_zivotinje, '$this->godina_zivotinje', '$this->nazivzivotinje');";
     $result = mysqli_query($konekcija, $upit);
-    $upit = "INSERT INTO `karta` (`id_karte`, `nazivkarte`, `emailKupca`, `cena`, `vrstaKarte`, `id_zivotinje`) VALUES ($this->id_karte, '$this->nazivkarte', '$this->emailKupca', '$this->cena', '$this->vrstaKarte', $this->id_zivotinje);";
+    $upit = "INSERT INTO `karta` (`id_karte`, `nazivkarte`, `emailKupca`, `cena`, `vrstaKarte`, `id_zivotinje`) VALUES ($this->id_karte, '$this->nazivkarte', '$this->emailKupca',
+     '$this->cena', '$this->vrstaKarte', $this->id_zivotinje);";
     $result = mysqli_query($konekcija, $upit);
     if(!$result)
             {
