@@ -73,7 +73,7 @@
 			<th>Cena karte</th>
 			<th>Vrsta karte</th>
 			<th>Datum rezervisanja karte</th>
-            <th>Naziv izdavaca</th>
+            <th>Naziv zivotinje</th>
 			</tr>";
              
 			$red=0;
@@ -96,7 +96,7 @@
             $godina_zivotinje=$red['godina_zivotinje'];
             $nazivzivotinje=$red['nazivzivotinje'];
 
-            echo "<td><a href='brisanjeKarte.php?nazivzivotinje=$nazivzivotinje&id_karte=$id_karte&nazivkarte=$nazivkarte&emailKupca=$emailKupca&vrstaKarte=$vrstaKarte&id_zivotinje=$id_zivotinje'>Izmeni</a></td>
+            echo "<td><a href='izmenaKarte.php?nazivzivotinje=$nazivzivotinje&id_karte=$id_karte&nazivkarte=$nazivkarte&emailKupca=$emailKupca&vrstaKarte=$vrstaKarte&id_zivotinje=$id_zivotinje'>Izmeni</a></td>
             <td><a href='brisanjeKarte.php?id_karte=$id_karte'>Obrisi</a></td>";
 
         	echo "</tr>";
