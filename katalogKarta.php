@@ -65,7 +65,7 @@
         }
     }
 
-    //ispis vrednosti promenljivih sa podacima o prodavcu
+    //ispis vrednosti promenljivih sa podacima o posetioca
 
     echo "<h3 align='center'> SPISAK Karta KOJE SE NALAZE U BAZI</h3>";
     //referenciranje na klasu 

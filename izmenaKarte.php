@@ -28,10 +28,10 @@
     <table class="table table-striped">
         <form method="post" action="submitKarta.php"> 
             <tr><td align=right>ID Karte</td><td><input  type="number" name="id_karte" size="10" autofocus required maxlength=10 tabindex=1 class="form-control"></td></tr>
-            <tr><td align=right>ID zivotinje &nbsp;</td><td><input  type="number" name="id_zivotinje" size="10" autofocus required maxlength=10 tabindex=2 class="form-control"></td></tr> 
+            <tr><td align=right>ID zivotinje</td><td><input  type="number" name="id_zivotinje" size="10" autofocus required maxlength=10 tabindex=2 class="form-control"></td></tr> 
             <tr><td align=right>Naziv karte</td><td><input type="text" name="nazivkarte" size="50" required maxlength=50 tabindex=3 class="form-control"></td></tr> 
             <tr><td align=right>Email kupca</td><td><input type="text" name="emailKupca" size="50" required maxlength=50 tabindex=3 class="form-control"></td></tr> 
-            <tr><td align=right>Cena</td><td><input type="number" name="cena" size="10" maxlength=10 tabindex=4 class="form-control"></td></tr>
+            <tr><td align=right>Cena</td><td><input type="text" name="cena" size="10" maxlength=10 tabindex=4 class="form-control"></td></tr>
             <tr><td align=right>Vrsta Karte</td><td><input type="text" name="vrstaKarte" size="30" required maxlength=30 tabindex=5 class="form-control"></td></tr> 
             <tr><td align=right>Datum rezervisanja karte</td><td><input type="date" name="godina_zivotinje"  required maxlength=4 tabindex=6 class="form-control"></td></tr> 
             <tr><td align=right>Naziv zeljene zivotinje</td><td><input type="text" name="nazivzivotinje" size="30" required maxlength=30 tabindex=7 class="form-control"></td></tr> 
